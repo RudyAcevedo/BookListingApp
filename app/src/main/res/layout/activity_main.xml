@@ -8,35 +8,26 @@ android:padding="16dp"
 tools:context="com.example.android.booklistingapp.MainActivity">
 
 <EditText
+    android:id="@+id/search_text"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:hint="@string/search_hint" />
 
-<TextView
+<Button
+    android:id="@+id/search_button"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Title"
-    android:textAllCaps="true"
-    android:textAppearance="?android:textAppearanceSmall" />
+    android:text="Search"/>
 
 <TextView
-    android:id="@+id/title"
+    android:id="@+id/error_search"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:textAppearance="?android:textAppearanceLarge"/>
+    android:layout_height="wrap_content" />
 
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Author/s"
-    android:textAllCaps="true"
-    android:textAppearance="?android:textAppearanceSmall" />
-
-<TextView
-    android:id="@+id/author"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:textAppearance="?android:textAppearanceLarge"/>
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 
 

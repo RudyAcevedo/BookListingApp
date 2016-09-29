@@ -2,5 +2,5 @@
     <string name="app_name">Book Listing App</string>
 
     <!--For edit box hint-->
-    <string name="search_hint">Search</string>
+    <string name="search_hint">Enter Book Category</string>
 </resources>

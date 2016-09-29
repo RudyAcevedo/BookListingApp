@@ -46,5 +46,5 @@
         android:layout_height="wrap_content"
         android:autoLink="web"
         tools:text="Book URL" />
-    
+
 </LinearLayout>
